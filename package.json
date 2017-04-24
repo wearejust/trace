@@ -1,8 +1,12 @@
 {
     "name": "trace.js",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Displays the arguments in a trace window in the top left of the screen",
-    "main": "trace.js",
+    "main": "dist/trace.js",
+    "files": [
+        "dist",
+        "src"
+    ],
     "keywords": [
         "trace",
         "log",
@@ -17,5 +21,12 @@
         "type": "git",
         "url": "https://github.com/wearejust/trace.js"
     },
-    "license": "MIT"
+    "license": "MIT",
+    "devDependencies": {},
+    "dependencies": {
+        "babel-preset-es2015-ie": "^6.7.0",
+        "gulp": "^3.9.1",
+        "gulp-babel": "^6.1.2",
+        "gulp-header": "^1.8.8"
+    }
 }

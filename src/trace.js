@@ -1,9 +1,3 @@
-/*!
- * @name trace.js
- * @version 1.0.0
- * @author Emre Koc <emre.koc@wearejust.com>
- */
- 
 class TraceWindow {
     constructor() {
         this.element = document.createElement('div');
