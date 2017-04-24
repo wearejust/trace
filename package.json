@@ -3,6 +3,7 @@
     "version": "1.0.1",
     "description": "Displays the arguments in a trace window in the top left of the screen",
     "main": "dist/trace.js",
+    "license": "MIT",
     "files": [
         "dist",
         "src"
@@ -21,9 +22,7 @@
         "type": "git",
         "url": "https://github.com/wearejust/trace.js"
     },
-    "license": "MIT",
-    "devDependencies": {},
-    "dependencies": {
+    "devDependencies": {
         "babel-preset-es2015-ie": "^6.7.0",
         "gulp": "^3.9.1",
         "gulp-babel": "^6.1.2",
