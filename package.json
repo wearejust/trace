@@ -1,0 +1,21 @@
+{
+    "name": "trace.js",
+    "version": "1.0.0",
+    "description": "Displays the arguments in a trace window in the top left of the screen",
+    "main": "trace.js",
+    "keywords": [
+        "trace",
+        "log",
+        "output"
+    ],
+    "author": {
+        "name": "Emre Koc",
+        "email": "emre.koc@wearejust.com",
+        "url": "https://github.com/wearejust"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wearejust/trace.js"
+    },
+    "license": "MIT"
+}
