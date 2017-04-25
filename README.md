@@ -26,12 +26,12 @@ trace(); // Hides (and clears) the trace window
 ```
 
 
-### trace_r()
+### trace.r()
 Recursively traces arguments.
 
 ```javascript
 var a = [1, 2, 3];
-trace_r(a);
+trace.r(a);
 /* 
     Outputs:
     + [0] [object Array]
@@ -42,7 +42,7 @@ trace_r(a);
 
 var a = [1, 2, 3];
 var b = [4, 5, 6];
-trace_r(a, b);
+trace.r(a, b);
 /* 
     Outputs:
     + [0] [object Array]
@@ -65,7 +65,7 @@ var o = {
         g: [6, 7, 8]
     }
 };
-trace_r(o);
+trace.r(o);
 /* 
     Outputs:
      + [0] [object Object]
@@ -83,19 +83,19 @@ trace_r(o);
 ```
 
 
-### trace_ms()
+### trace.ms()
 Display time between calls in miliseconds.
 
 ```javascript
-trace_ms(); // Does nothing the first time
-trace_ms(); // Outputs "[1] 100 ms"
-trace_ms(); // Outputs "[2] 200 ms"
-trace_ms(); // Outputs "[3] 300 ms"
+trace.ms(); // Does nothing the first time
+trace.ms(); // Outputs "[1] 100 ms"
+trace.ms(); // Outputs "[2] 200 ms"
+trace.ms(); // Outputs "[3] 300 ms"
 
-trace_ms(150); // Add limit to display those that are over it in red
-trace_ms(); // Outputs "[1] 100 ms"
-trace_ms(); // Outputs "[2] 200 ms" with 200 in red
-trace_ms(); // Outputs "[3] 300 ms" with 300 in red
+trace.ms(150); // Add limit to display those that are over it in red
+trace.ms(); // Outputs "[1] 100 ms"
+trace.ms(); // Outputs "[2] 200 ms" with 200 in red
+trace.ms(); // Outputs "[3] 300 ms" with 300 in red
 
-trace_ms(true); // Resets the time
+trace.ms(true); // Resets the time
 ```
