@@ -1,5 +1,10 @@
 # trace.js
 
+### Installation
+```
+npm install trace.js --save-dev
+```
+
 ### trace()
 Displays the arguments in a trace window in the top left of the screen.
 
