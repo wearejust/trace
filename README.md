@@ -1,8 +1,12 @@
-# trace.js
+# @wearejust/trace
 
 ### Installation
 ```
-npm install trace.js --save-dev
+npm install @wearejust/trace --save-dev
+```
+
+```
+var trace = require('@wearejust/trace')
 ```
 
 ### trace()

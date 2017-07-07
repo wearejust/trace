@@ -1,8 +1,8 @@
 /** 
-* trace.js 
+* @wearejust/trace 
 * Displays the arguments in a trace window in the top left of the screen 
 * 
-* @version 2.0.0 
+* @version 2.0.3 
 * @author Emre Koc <emre.koc@wearejust.com> 
 */
 'use strict';
