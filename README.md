@@ -1,4 +1,4 @@
-# @wearejust/trace
+# Trace
 
 ### Installation
 ```
