@@ -2,7 +2,7 @@
 * @wearejust/trace 
 * Displays the arguments in a trace window in the top left of the screen 
 * 
-* @version 2.0.3 
+* @version 2.0.5 
 * @author Emre Koc <emre.koc@wearejust.com> 
 */
 'use strict';
